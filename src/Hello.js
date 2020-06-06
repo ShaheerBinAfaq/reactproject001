@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello.js';
+import './Hello.css';
 
 // function App(props) {
 //   return (
@@ -9,11 +9,9 @@ import Hello from './Hello.js';
 //   );
 // }
 
-function App(props) {
-  let {name, age} = props;
+function Hello(props) {  
   return (
-  <div>Hello from App.js updated {name} and he is {age-12}<br/>
-  <Hello name={name}/></div>
+  <div className='myname'>Hello from Hello.js {props.name}</div>
   );
 }
 
@@ -23,4 +21,4 @@ function App(props) {
 //   );
 // }
 
-export default App;
+export default Hello;
