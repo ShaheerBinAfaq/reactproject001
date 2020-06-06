@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
-  <App name="Shaheer" age={22}/>,
+  <div className="app"><App name="Shaheer" age={22}/></div>,
   document.getElementById('root')
 );
 

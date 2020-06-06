@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app {
+  font-family: cursive;
+  font-size: large;
+  background-color: ivory;
+}
